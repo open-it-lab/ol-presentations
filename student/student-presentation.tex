@@ -25,24 +25,33 @@
       {\emph{waggonej@email.sc.edu}} }
 \date{\today}
 
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{img/bg.png}}
+
 \begin{document}
 \rm
 
-\begin{frame}
-  \titlepage
-\end{frame}
+{
+  \usebackgroundtemplate{\includegraphics[width=\paperwidth]{img/bg-title.png}} 
+  \begin{frame}
+%    \titlepage
+    \vspace{12em}
+
+    \begin{center}\large{\textcolor{beamer@mygrey}{Jarrell Waggoner}}\end{center}
+
+    \begin{center}\small{\textcolor{beamer@mygreen}{waggonej@email.sc.edu}}\end{center}
+
+    \begin{center}\small{\textcolor{beamer@mygrey}{\today}}\end{center}
+  \end{frame}
+}
 
 \begin{frame}
-  \frametitle{Slide Title}
-  \begin{block}
-    {Block Title} Block content
-  \end{block}
+  \frametitle{Sample Content Slide}
   Slide content
 \end{frame}
 
-\begin{frame}
-  \frametitle{Slide 2 Title}
+%% \begin{frame}
+%%   \frametitle{Slide 2 Title}
 
-\end{frame}
+%% \end{frame}
 
 \end{document}
