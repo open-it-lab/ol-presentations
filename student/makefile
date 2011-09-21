@@ -3,6 +3,7 @@ proj = student-presentation
 all: $(proj).pdf
 
 $(proj).pdf: *.tex
+	ln -sf ../*.sty .
 	xelatex $(proj).tex
 	mv $(proj).pdf $(proj)-temp.pdf
 	ps2pdf14 $(proj)-temp.pdf $(proj).pdf
