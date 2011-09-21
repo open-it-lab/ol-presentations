@@ -1,0 +1,10 @@
+# -*- coding: iso-8859-1 -*-
+
+AvailableTransitions = [Crossfade]
+
+PageProps = {
+  1: {
+       'reset': 1,
+       'title': 'Title Page'
+     },
+}
