@@ -1,4 +1,4 @@
-proj = student-presentation
+proj = developer-presentation
 
 all: $(proj).pdf
 
@@ -23,4 +23,5 @@ clean:
 	-rm *.toc
 	-rm *.nav
 	-rm *~
+	-rm beamerthemeopenlab.sty
 	-rm $(proj).pdf
