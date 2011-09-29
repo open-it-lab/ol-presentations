@@ -26,6 +26,8 @@
       {\emph{waggonej@email.sc.edu}} }
 \date{\today}
 
+\newcommand{\putat}[3]{\begin{picture}(0,0)(0,0)\put(#1,#2){#3}\end{picture}}
+
 \usebackgroundtemplate{\includegraphics[width=\paperwidth]{../img/bg.png}}
 
 % Videos/websites to show:
@@ -75,21 +77,126 @@
   \end{Large}
 \end{frame}
 
-\begin{frame}
-  % \frametitle{Software Freedom Day}
-  \vspace{-1em}
-  \begin{center} \includegraphics[width=0.9\textwidth]{../img/sfd} \end{center}
-  % \href{http://softwarefreedomday.org/}{http://softwarefreedomday.org/}
-  \begin{large}
-    \begin{itemize}
-    \item Annual worldwide celebration of Free and Open Source
-      Software
-    \item 3rd Saturday of September \\ (occasionally overlaps with
-      International Talk Like A Pirate Day)
-    \item Over 500 individual celebrations around the world
-    \end{itemize}
-  \end{large}
+% \begin{frame}
+%   \vspace{-1em}
+%   \begin{center} \includegraphics[width=0.9\textwidth]{../img/sfd} \end{center}
+%   \begin{large}
+%     \begin{itemize}
+%     \item Annual worldwide celebration of Free and Open Source
+%       Software
+%     \item 3rd Saturday of September \\ (occasionally overlaps with
+%       International Talk Like A Pirate Day)
+%     \item Over 500 individual celebrations around the world
+%     \end{itemize}
+%   \end{large}
+% \end{frame}
 
+\begin{frame}
+  \begin{center}
+    \begin{Huge}
+      Software vs. Hardware
+    \end{Huge}
+
+    \includegraphics[width=0.4\textwidth]{../img/tux-question-3}
+    \end{center}
+\end{frame}
+
+\begin{frame}
+  \begin{center} 
+    \includegraphics[width=0.7\textwidth]{../img/hardware}
+    \begin{Huge} Hardware \end{Huge} 
+  \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{What is hardware?}
+  \begin{center}
+    \includegraphics[width=0.4\textwidth]{../img/hardware-2}
+  \end{center}
+  \begin{itemize}
+  \item The physical "stuff" that our electronics are made out of
+  \item Costs lots of money in R\&D to create
+  \item Requires tools and supplies to build that most people do not have
+  \end{itemize}
+
+\end{frame}
+
+\begin{frame}
+  \begin{center} 
+    \includegraphics[width=1\textwidth]{../img/software-words-3}
+    \begin{Huge} Software \end{Huge} 
+  \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{What is software?}
+  \begin{center}
+    \includegraphics[height=0.6\textheight]{../img/software-words-4}
+  \end{center}
+
+    \only<1>{Think of Hardware as a \textcolor{beamer@myblue}{Television} and software as the \textcolor{beamer@myblue}{TV shows}. The TV show \textcolor{beamer@myblue}{director} and \textcolor{beamer@myblue}{actors} are all "programmers."}
+    \only<2>{\textcolor{beamer@myblue}{Piano} as hardware and \textcolor{beamer@myblue}{sheet music} as software. The \textcolor{beamer@myblue}{composer} of the music is a "programmer."}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{How is software made?}
+  \begin{overlayarea}{\textwidth}{\textheight}
+   \vspace{1em}
+
+  \begin{center}
+    \only<1>{Project $\rightarrow$ Programmer(s) $\rightarrow$ Code $\rightarrow$ Hardware}
+    \only<2>{\textcolor{beamer@myblue}{Project} $\rightarrow$ Programmer(s) $\rightarrow$ Code $\rightarrow$ Hardware}
+    \only<3>{Project $\rightarrow$ \textcolor{beamer@myblue}{Programmer(s)} $\rightarrow$ Code $\rightarrow$ Hardware}
+    \only<4>{Project $\rightarrow$ \textcolor{beamer@myblue}{Programmer(s)} $\rightarrow$ Code $\rightarrow$ Hardware}
+    \only<5>{Project $\rightarrow$ Programmer(s) $\rightarrow$ \textcolor{beamer@myblue}{Code} $\rightarrow$ Hardware}
+    \only<6>{Project $\rightarrow$ Programmer(s) $\rightarrow$ Code $\rightarrow$ \textcolor{beamer@myblue}{Hardware}}
+  \end{center}
+
+  \only<1>{\vspace{4em} 
+
+    A \textcolor{beamer@myblue}{programmer} writes \textcolor{beamer@myblue}{code} to solve a problem. This code can be \textcolor{beamer@myblue}{compiled} to run on specific \textcolor{beamer@myblue}{hardware}. Some software is only designed to be used by few people, and some software is designed to be given away to everyone, or sold for profit.}
+  \only<2>{
+    \begin{itemize}
+    \item Identify a problem or business need
+    \item Hire people to solve the problem
+    \item Find management to lead the project
+    \item Develop a plan to create the project
+    \item Figure out how the team will work together
+    \item Define the specifications of what has to be created
+    \item Give tasks to the programmer(s) hired to work on the project
+    \end{itemize}
+  }
+  \only<3>{
+    \begin{itemize}
+    \item Identify a problem or business need
+    \item Hire people to solve the problem
+    \item Find management to lead the project
+    \item Develop a plan to create the project
+    \item Figure out how the team will work together
+    \item Define the specifications of what has to be created
+    \item Give tasks to the programmer(s) hired to work on the project
+    \end{itemize}
+    \putat{85}{0}{\includegraphics[width=0.5\textwidth]{../img/red-tape}}
+    % \begin{center} \includegraphics[width=0.75\textwidth]{../img/red-tape} \end{center}
+  }
+  \only<4>{
+    \begin{center}
+      \includegraphics[width=0.75\textwidth]{../img/software-development}
+    \end{center}
+  }
+  \only<5>{
+    \begin{center}
+      \includegraphics[width=0.65\textwidth]{../img/foxtrot}
+      \begin{itemize}
+      \item Instructions for the hardware to carry out
+      \item Many \textcolor{beamer@myblue}{languages} to choose from
+        that different computers understand
+      \item 
+      \end{itemize}
+    \end{center}
+  }
+  \end{overlayarea}
 \end{frame}
 
 \begin{frame}
