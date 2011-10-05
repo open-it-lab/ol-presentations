@@ -28,10 +28,9 @@
 
 \newcommand{\putat}[3]{\begin{picture}(0,0)(0,0)\put(#1,#2){#3}\end{picture}}
 
-\usebackgroundtemplate{\includegraphics[width=\paperwidth]{../img/bg.png}}
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{../img/bg-small.png}}
 
 % Videos/websites to show:
-% About SFD: http://softwarefreedomday.org/
 % Dictionary Definition: http://dictionary.reference.com/browse/open
 % RSA Animate: http://youtu.be/u6XAPnuFjJc?t=6m44s
 % Karen Sandler: http://youtu.be/nFZGpES-St8?t=2m26s
@@ -118,8 +117,98 @@
   \item Costs lots of money in R\&D to create
   \item Requires tools and supplies to build that most people do not have
   \end{itemize}
-
 \end{frame}
+
+\begin{frame}
+  \frametitle{What is hardware?}
+  \begin{center}
+    \begin{Large} Hardware is Dumb \end{Large}
+
+    \vspace{1em}
+  
+    \includegraphics[width=0.3\textwidth]{../img/dumb-hardware}
+  \end{center}
+  \begin{itemize}
+  \item Can only understand 0s and 1s
+  \item Can't do anything that it isn't told to do (with 0s and 1s)
+  \item Needs a human (programmer) to make it do useful things
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Can you make hardware yourself?}
+  \begin{Large} Open Hardware \end{Large}
+  \begin{itemize}
+  \item All the schematics for how to build is available
+  \item You need only equipment and the parts
+  \end{itemize}
+
+  \begin{Large} Closed Hardware \end{Large}
+  \begin{itemize}
+  \item No.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \begin{center}
+    \begin{Huge}
+      Open vs. Closed?
+    \end{Huge}
+
+    We'll come back later...
+  \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Hardware Examples}
+  \begin{itemize}
+  \item Hardware
+    \begin{description}
+    \item[Thing-O-Matic] A \textcolor{beamer@myblue}{3D} Printer that
+      can produce 3D objects out of a special plastic
+      \textcolor{beamer@myblue}{reproduce} itself by printing the
+      necessary components to build a new device.
+    \item[Arduino] Electronic prototyping platform for creating
+      interactive electronic objects.
+    \end{description}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Makerbot Thing-O-Matic}
+  \begin{center} \includegraphics[width=0.4\textwidth]{../img/thing-o-matic} \end{center}
+  \begin{itemize}
+  \item A \textcolor{beamer@myblue}{3D} Printer that can produce 3D
+    objects out of a special plastic
+  \item Can be built by anyone if they have the parts
+  \item Can \textcolor{beamer@myblue}{reproduce} itself by printing the
+    necessary components to build a new device.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Makerbot Thing-O-Matic}
+  \begin{center} 
+    \includegraphics[width=0.5\textwidth]{../img/yoda}
+
+    \includegraphics[width=0.5\textwidth]{../img/yoda-2} 
+  \end{center}
+\end{frame}
+
+% http://www.flickr.com/photos/retrocactus/6044172663/
+
+\begin{frame}
+  \frametitle{Arduino}
+  \begin{center} \includegraphics[width=0.4\textwidth]{../img/arduino} \end{center}
+  \begin{itemize}
+  \item Small, programmable \textcolor{beamer@myblue}{microcontroller}
+  \item Open hardware, so all the build specs are available to build
+    it yourself (you can also buy pre-built Arduinos)
+  \item Been used in lots of different projects, and is small enough to be embedded in RC cars, musical instruments, and even clothing
+  \end{itemize}
+\end{frame}
+
+% http://hacknmod.com/hack/top-40-arduino-projects-of-the-web/
 
 \begin{frame}
   \begin{center} 
@@ -146,11 +235,10 @@
 
   \begin{center}
     \only<1>{Project $\rightarrow$ Programmer(s) $\rightarrow$ Code $\rightarrow$ Hardware}
-    \only<2>{\textcolor{beamer@myblue}{Project} $\rightarrow$ Programmer(s) $\rightarrow$ Code $\rightarrow$ Hardware}
-    \only<3>{Project $\rightarrow$ \textcolor{beamer@myblue}{Programmer(s)} $\rightarrow$ Code $\rightarrow$ Hardware}
-    \only<4>{Project $\rightarrow$ \textcolor{beamer@myblue}{Programmer(s)} $\rightarrow$ Code $\rightarrow$ Hardware}
-    \only<5>{Project $\rightarrow$ Programmer(s) $\rightarrow$ \textcolor{beamer@myblue}{Code} $\rightarrow$ Hardware}
-    \only<6>{Project $\rightarrow$ Programmer(s) $\rightarrow$ Code $\rightarrow$ \textcolor{beamer@myblue}{Hardware}}
+    \only<2,3>{\textcolor{beamer@myblue}{Project} $\rightarrow$ Programmer(s) $\rightarrow$ Code $\rightarrow$ Hardware}
+    \only<4,5,6>{Project $\rightarrow$ \textcolor{beamer@myblue}{Programmer(s)} $\rightarrow$ Code $\rightarrow$ Hardware}
+    \only<7>{Project $\rightarrow$ Programmer(s) $\rightarrow$ \textcolor{beamer@myblue}{Code} $\rightarrow$ Hardware}
+    \only<8>{Project $\rightarrow$ Programmer(s) $\rightarrow$ Code $\rightarrow$ \textcolor{beamer@myblue}{Hardware}}
   \end{center}
 
   \only<1>{\vspace{4em} 
@@ -187,16 +275,152 @@
   }
   \only<5>{
     \begin{center}
+      \includegraphics[height=0.6\textheight]{../img/geek}
+      \includegraphics[height=0.6\textheight]{../img/ada-byron}
+    \end{center}
+  }
+  \only<6>{
+    Programmers create all kinds of software
+    \begin{center}
+      \begin{itemize}
+      \item Computer applications
+      \item Web applications
+      \item Apps for phones
+      \item Games
+      \item Logic for cars, microwaves, credit card readers, etc.
+      \item Databases
+      \item Software that tests other software
+      \item Software that runs a computer (Operating System)
+      \item Software that helps other programmers create software
+      \end{itemize}
+    \end{center}
+
+  }
+  \only<7>{
+    \begin{center}
       \includegraphics[width=0.65\textwidth]{../img/foxtrot}
       \begin{itemize}
       \item Instructions for the hardware to carry out
       \item Many \textcolor{beamer@myblue}{languages} to choose from
         that different computers understand
-      \item 
+      \item Can be valuable to businesses or corporations, so they may not \textcolor{beamer@myblue}{share} code they create
       \end{itemize}
     \end{center}
   }
+  \only<8>{
+    \begin{center}
+      \includegraphics[width=0.35\textwidth]{../img/compiling}
+    \end{center}
+    \begin{itemize}
+    \item Hardware can only understand 0s and 1s, so code must be \textcolor{beamer@myblue}{compiled} to run on hardware
+    % \item Compiling is just the process of turning the code into 0s and 1s
+    \item It can take a long time, or be really fast (so fast, its done instantly) depending on how big your program is
+    \end{itemize}
+  }
   \end{overlayarea}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Software Examples}
+  Examples of open projects:
+
+  \begin{itemize}
+  \item Software
+    \begin{description}
+    \item[Linux] Operating system that can be modified to work on just
+      about any device
+    \item[Firefox] Web browser that runs on any operating system (both
+      open source operating systems and proprietary operating systems)
+    \item[Open Office] Complete office suite that produces documents
+      that can be opened by any system
+    \item[Blender] 3D computer graphics software to model and render CGI images and video
+    \end{description}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Linux}
+  \begin{columns}
+    \column{0.45\textwidth}
+    \begin{LARGE}
+      Linux
+    \end{LARGE}
+    \begin{itemize}
+    \item Released in 1991 by Linux Torvalds
+    \item Created as a free alternative to Unix
+    \item Now runs on
+      \begin{itemize}
+      \item MACs \& PCs
+      \item Video game consoles
+      \item PDAs and Phones (Android)
+      \item GPSs and Cars
+      \item Servers / Supercomputers
+      \end{itemize}
+    \end{itemize}
+    \column{0.45\textwidth}
+      \begin{center}\includegraphics[width=0.5\textwidth]{../img/tux}\end{center}
+      
+      \begin{center}\includegraphics[width=0.5\textwidth]{../img/ubuntu}\end{center}
+  \end{columns}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Who Contributes to Linux?}
+  All of these companies actively work to make Linux better (and since Linux is Open Source, we all get to benefit from their work):
+  \begin{columns}
+    \column{0.45\textwidth}
+    
+    \begin{Large}
+      \begin{itemize}
+      \item Red Hat
+      \item Novell
+      \item IBM
+      \item Intel
+      \item Oracle
+      \item Google
+      \item $\ldots$
+        even \includegraphics[width=0.3\textwidth]{../img/microsoft}!
+      \end{itemize}
+    \end{Large}
+
+    \column{0.45\textwidth}
+    \begin{center}
+      \includegraphics[width=0.3\textwidth]{../img/redhat}
+
+      \includegraphics[width=0.4\textwidth]{../img/novell}
+
+      \includegraphics[width=0.3\textwidth]{../img/ibm}
+
+      \includegraphics[width=0.3\textwidth]{../img/intel}
+
+      \includegraphics[width=0.4\textwidth]{../img/oracle}
+
+      \includegraphics[width=0.4\textwidth]{../img/google}
+    \end{center}
+  \end{columns}
+  \begin{center}
+    You've used Linux if you've ever Googled anything!
+  \end{center}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Blender}
+  \begin{center} \includegraphics[width=0.8\textwidth]{../img/blenderex} \end{center}
+  \begin{itemize}
+  \item Fully featured 3D modeler, renderer, and compositer
+  \item Works on all major operating systems, and even on old hardware
+    \\ (I was using blender back in 2001!)
+  \item Is free, compared to commercial software that cost 1000s of
+    dollars, so anyone can start learning how to use it right away
+  \item Has state-of-the-art features comparable to similar
+    proprietary tools--you can do studio-quality work in Blender!
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Blender Example}
+    \includegraphics[width=\textwidth]{../img/blendermine}
 \end{frame}
 
 \begin{frame}
@@ -459,176 +683,19 @@
   \end{footnotesize}
 \end{frame}
 
-\begin{frame}
-  \begin{center} 
-    \includegraphics[width=1\textwidth]{../img/software-words-3}
-    \begin{Huge} Software \end{Huge} 
-  \end{center}
-\end{frame}
+% \begin{frame}
+%   \begin{center} 
+%     \includegraphics[width=1\textwidth]{../img/software-words-3}
+%     \begin{Huge} Software \end{Huge} 
+%   \end{center}
+% \end{frame}
 
-\begin{frame}
-  \frametitle{Software Examples}
-  Examples of open projects:
-
-  \begin{itemize}
-  \item Software
-    \begin{description}
-    \item[Linux] Operating system that can be modified to work on just
-      about any device
-    \item[Firefox] Web browser that runs on any operating system (both
-      open source operating systems and proprietary operating systems)
-    \item[Open Office] Complete office suite that produces documents
-      that can be opened by any system
-    \item[Blender] 3D computer graphics software to model and render CGI images and video
-    \end{description}
-    \end{itemize}
-\end{frame}
-
-\begin{frame}
-  \frametitle{Linux}
-  \begin{columns}
-    \column{0.45\textwidth}
-    \begin{LARGE}
-      Linux
-    \end{LARGE}
-    \begin{itemize}
-    \item Released in 1991 by Linux Torvalds
-    \item Created as a free alternative to Unix
-    \item Now runs on
-      \begin{itemize}
-      \item MACs \& PCs
-      \item Video game consoles
-      \item PDAs and Phones (Android)
-      \item GPSs and Cars
-      \item Servers / Supercomputers
-      \end{itemize}
-    \end{itemize}
-    \column{0.45\textwidth}
-      \begin{center}\includegraphics[width=0.5\textwidth]{../img/tux}\end{center}
-      
-      \begin{center}\includegraphics[width=0.5\textwidth]{../img/ubuntu}\end{center}
-  \end{columns}
-\end{frame}
-
-\begin{frame}
-  \frametitle{Who Contributes to Linux?}
-  All of these companies actively work to make Linux better (and since Linux is Open Source, we all get to benefit from their work):
-  \begin{columns}
-    \column{0.45\textwidth}
-    
-    \begin{Large}
-      \begin{itemize}
-      \item Red Hat
-      \item Novell
-      \item IBM
-      \item Intel
-      \item Oracle
-      \item Google
-      \item $\ldots$
-        even \includegraphics[width=0.3\textwidth]{../img/microsoft}!
-      \end{itemize}
-    \end{Large}
-
-    \column{0.45\textwidth}
-    \begin{center}
-      \includegraphics[width=0.3\textwidth]{../img/redhat}
-
-      \includegraphics[width=0.4\textwidth]{../img/novell}
-
-      \includegraphics[width=0.3\textwidth]{../img/ibm}
-
-      \includegraphics[width=0.3\textwidth]{../img/intel}
-
-      \includegraphics[width=0.4\textwidth]{../img/oracle}
-
-      \includegraphics[width=0.4\textwidth]{../img/google}
-    \end{center}
-  \end{columns}
-  \begin{center}
-    You've used Linux if you've ever Googled anything!
-  \end{center}
-
-\end{frame}
-
-\begin{frame}
-  \frametitle{Blender}
-  \begin{center} \includegraphics[width=0.8\textwidth]{../img/blenderex} \end{center}
-  \begin{itemize}
-  \item Fully featured 3D modeler, renderer, and compositer
-  \item Works on all major operating systems, and even on old hardware
-    \\ (I was using blender back in 2001!)
-  \item Is free, compared to commercial software that cost 1000s of
-    dollars, so anyone can start learning how to use it right away
-  \item Has state-of-the-art features comparable to similar
-    proprietary tools--you can do studio-quality work in Blender!
-  \end{itemize}
-\end{frame}
-
-\begin{frame}
-  \frametitle{Blender Example}
-    \includegraphics[width=\textwidth]{../img/blendermine}
-\end{frame}
-
-\begin{frame}
-  \begin{center} 
-    \includegraphics[width=0.7\textwidth]{../img/hardware}
-    \begin{Huge} Hardware \end{Huge} 
-  \end{center}
-\end{frame}
-
-
-\begin{frame}
-  \frametitle{Hardware Examples}
-  Examples of open projects:
-
-  \begin{itemize}
-  \item Hardware
-    \begin{description}
-    \item[Thing-O-Matic] A \textcolor{beamer@myblue}{3D} Printer that
-      can produce 3D objects out of a special plastic
-      \textcolor{beamer@myblue}{reproduce} itself by printing the
-      necessary components to build a new device.
-    \item[Arduino] Electronic prototyping platform for creating
-      interactive electronic objects.
-    \end{description}
-  \end{itemize}
-\end{frame}
-
-\begin{frame}
-  \frametitle{Makerbot Thing-O-Matic}
-  \begin{center} \includegraphics[width=0.4\textwidth]{../img/thing-o-matic} \end{center}
-  \begin{itemize}
-  \item A \textcolor{beamer@myblue}{3D} Printer that can produce 3D
-    objects out of a special plastic
-  \item Can be built by anyone if they have the parts
-  \item Can \textcolor{beamer@myblue}{reproduce} itself by printing the
-    necessary components to build a new device.
-  \end{itemize}
-\end{frame}
-
-\begin{frame}
-  \frametitle{Makerbot Thing-O-Matic}
-  \begin{center} 
-    \includegraphics[width=0.5\textwidth]{../img/yoda}
-
-    \includegraphics[width=0.5\textwidth]{../img/yoda-2} 
-  \end{center}
-\end{frame}
-
-% http://www.flickr.com/photos/retrocactus/6044172663/
-
-\begin{frame}
-  \frametitle{Arduino}
-  \begin{center} \includegraphics[width=0.4\textwidth]{../img/arduino} \end{center}
-  \begin{itemize}
-  \item Small, programmable \textcolor{beamer@myblue}{microcontroller}
-  \item Open hardware, so all the build specs are available to build
-    it yourself (you can also buy pre-built Arduinos)
-  \item Been used in lots of different projects, and is small enough to be embedded in RC cars, musical instruments, and even clothing
-  \end{itemize}
-\end{frame}
-
-% http://hacknmod.com/hack/top-40-arduino-projects-of-the-web/
+% \begin{frame}
+%   \begin{center} 
+%     \includegraphics[width=0.7\textwidth]{../img/hardware}
+%     \begin{Huge} Hardware \end{Huge} 
+%   \end{center}
+% \end{frame}
 
 \begin{frame}
   \begin{center} 
