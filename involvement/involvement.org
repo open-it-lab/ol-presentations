@@ -1,0 +1,18 @@
+* Why
+** Companies
+** Employers value OS
+** Personal development
+* How
+** Software
+*** Summer-of-Codes
+*** Intern
+*** Conferences
+*** User Groups
+** Hardware
+*** VC $
+** Content
+*** Creative Commons
+*** OS Software
+* Where
+** http://www.mozilla.org/en-US/firefox/community/
+** http://quality.mozilla.org/
