@@ -85,8 +85,8 @@
   \frametitle{How?}
   \begin{itemize}
     \setlength{\itemsep}{2em}
-  \item \begin{LARGE} Contribute \end{LARGE} \\ (to existing projects)
-  \item \begin{LARGE} Create \end{LARGE} \\ (your own projects and make them open source)
+  \item \begin{LARGE} \textcolor<2>{beamer@myblue}{Contribute} \end{LARGE} \\ \textcolor<2>{beamer@myblue}{(to existing projects)}
+  \item \begin{LARGE} \textcolor<2>{beamer@mygrey}{Create} \end{LARGE} \\ \textcolor<2>{beamer@mygrey}{(your own projects and make them open source)}
   \end{itemize}
 \end{frame}
 
@@ -110,12 +110,12 @@
     \only<3>{\begin{itemize}
     \item Documentation
     \item Reimplementations -- build your own version, maybe improve it!
-    \item Remixes -- make it do something new
-    \item Make a bigger project with open hardware components
+    % \item Remixes -- make it do something new
+    % \item Make a bigger project with open hardware components
     \item Start a group or hacker space to build stuff together
-    \item Create tutorials or blog about things you discover
-    \item Post videos of your project in action (content!)
-    \item Open source the code that makes your project run (software!)
+    % \item Create tutorials or blog about things you discover
+    % \item Post videos of your project in action (content!)
+    % \item Open source the code that makes your project run (software!)
     \end{itemize}}
   \item
     \begin{Large} Content \end{Large}
@@ -124,9 +124,49 @@
     \item Remix it into your own variants
     \item Revise it to make it better
     \item Add your own expertise (say, in wikipedia)
-    \item Learn new stuff from it, and share your knowledge with others
+    % \item Learn new stuff from it, and share your knowledge with others
     \end{itemize}}
   \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{How to Contribute}
+  \begin{LARGE} (Sort of) Offline \end{LARGE}
+  \begin{itemize}
+  \item Summer-of-Codes
+    \begin{itemize}
+    \item Google SOC
+    \item Ruby SOC
+    \item New Zealand SOC
+    \end{itemize}
+  \item Internships at OS-friendly companies \\ (Red Hat, Mozilla, Untangle, Canonical, etc.)
+    % http://www.networkworld.com/news/2008/090208-open-to-watch.html
+  \item Local user and developer groups
+  \item (Un)Conferences
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{How to Contribute}
+  \begin{LARGE} Online \end{LARGE}
+  \begin{itemize}
+  \item openhatch.org
+  \item Software communities: github, Bitbucket, Launchpad, Gitorious, Google Code, SourceForge
+  \item Hardware communities: openhardwarehub.com, https://opendesignengine.net/
+    % http://www.slideshare.net/kfasimpaur/open-educational-resources-share-remix-learn-v4
+  \item Content communities: Wikimedia Commons, Open Photo Project, musopen, ccMixter, KahnAcademy, Teacher's Domain, OER Commons
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Who to Talk To}
+  \begin{itemize}
+  \item Every project has one or more \textcolor{beamer@myblue}{maintainers} that control whose submissions get into the project
+  \item Some projects (like Mozilla's) have a dedicated "Get Involved" page just for people who are interested
+  \item Some project's wikis list easy tasks that no one is working on
+  % \item Wikis can be edited by anyone, so its easy to contribute documentation
+  \end{itemize}
+
 \end{frame}
 
 \begin{frame}
@@ -139,29 +179,11 @@
 \end{frame}
 
 \begin{frame}
-  \frametitle{How to Contribute}
-  \begin{LARGE} (Sort of) Offline \end{LARGE}
+  \frametitle{How?}
   \begin{itemize}
-  \item Summer-of-Codes
-    \only<2>{\begin{itemize}
-    \item Google SOC
-    \item Ruby SOC
-    \item New Zealand SOC
-    \end{itemize}}
-  \item Internships at OS-friendly companies \\ (Red Hat, Mozilla, Untangle, Canonical, etc.)
-    % http://www.networkworld.com/news/2008/090208-open-to-watch.html
-  \item Local user and developer groups
-  \item (Un)Conferences
-  \end{itemize}
-
-  \vspace{1em}
-
-  \begin{LARGE} Online \end{LARGE}
-  \begin{itemize}
-  \item openhatch.org
-  \item Software communities: github, Bitbucket, Launchpad, Gitorious, Google Code, SourceForge
-  \item Hardware communities: openhardwarehub.com, https://opendesignengine.net/
-  \item Content communities: 
+    \setlength{\itemsep}{2em}
+  \item \begin{LARGE} \textcolor{beamer@mygrey}{Contribute} \end{LARGE} \\ \textcolor{beamer@mygrey}{(to existing projects)}
+  \item \begin{LARGE} \textcolor{beamer@myblue}{Create} \end{LARGE} \\ \textcolor{beamer@myblue}{(your own projects and make them open source)}
   \end{itemize}
 \end{frame}
 
@@ -170,90 +192,128 @@
   \begin{LARGE}
     \begin{tabular}{r l}
       Q: & How does something become open source? \\
-      \only<2>{A: & Select a \textcolor{beamer@myblue}{license} and share it with others \\}
+      \only<2>{A: & Attach a \textcolor{beamer@myblue}{license} and share it with others \\}
     \end{tabular}
   \end{LARGE}
-
 \end{frame}
 
 \begin{frame}
   \frametitle{Software}
+
+  Lots of licenses to choose from\ldots
+
+  \begin{description}
+  \item[GPL] Is now, and will forever be free
+  \item[BSD] Is free, but new versions don't have to be free too
+  \item[Apache] Similar to BSD
+  \end{description}
+
+  Lots and lots more: IBM, Intel, MIT, Mozilla, Python, Microsoft, Sun, \ldots
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{How to use a Software License}
+  \begin{enumerate}
+  \item Find the license you want (decide how "free" you want it to be)
+  \item Fill in the blanks with your software's title
+  \item Attach and distribute the license with your software package
+  \item ????
+  \item Share!
+  \end{enumerate}
+\end{frame}
+
+\begin{frame}
+  \frametitle{How to use a Software License}
+  GPL, Apache, BSD all have how-to guides and/or examples
+  \begin{description}
+  \item[GPL] \href{http://www.gnu.org/licenses/gpl-howto.html}{http://www.gnu.org/licenses/gpl-howto.html}
+  \item[Apache] \href{http://www.apache.org/dev/apply-license.html}{http://www.apache.org/dev/apply-license.html}
+  \item[BSD] \href{http://www.opensource.org/licenses/BSD-3-Clause}{http://www.opensource.org/licenses/BSD-3-Clause}
+  \end{description}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Hardware}
   \begin{itemize}
-  \item Create your own projects
-    \begin{itemize}
-    \item Release them under an open source license \\ (GPL, BSD, Apache, etc.)
-    \end{itemize}
-  \item Contribute to existing projects
+  \item Historically have used Open Software licenses, despite differences between software and hardware
+  \item Hardware-specific Open Hardware Licenses (OHL):
+    \begin{description}
+    \item[TAPR OHL] (Tucson Amateur Packet Radio)
+    \item[CERN OHL] (European Organization for Nuclear Research)
+    \end{description}
   \end{itemize}
 \end{frame}
 
 \begin{frame}
-  \frametitle{Stuff you should know}
-  \begin{overlayarea}{\textwidth}{\textheight}
-    \begin{itemize}
+  \frametitle{Content}
+  \begin{center}
+    \includegraphics[width=0.5\textwidth]{../img/cc}
+  \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Content}
+  % http://www.squidoo.com/cc-flickr
+  \begin{center}
+    \begin{large}Do anything you want with it \end{large}
+
+    \includegraphics[height=0.7\textheight]{../img/cc-list}
+
+    \begin{large}Copyright (\copyright) \end{large}
+  \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{How to use Creative Commons Licenses}
+
+  Creative Commons has a guide to walk you through the process of generating a license you can attach to your content: \href{http://creativecommons.org/choose/}{http://creativecommons.org/choose/}
+
+  \begin{center}
+    \includegraphics[height=0.7\textheight]{../img/cc-guide-short}
+  \end{center}
+  
+\end{frame}
+
+\begin{frame}
+  \frametitle{How?}
+  \begin{itemize}
+    \setlength{\itemsep}{2em}
+  \item \begin{LARGE} Contribute \end{LARGE} \\ (to existing projects)
+  \item \begin{LARGE} Create \end{LARGE} \\ (your own projects and make them open source)
+  \end{itemize}
+\end{frame}
+
+% http://news.ycombinator.com/item?id=3099362
+
+\begin{frame}
+  \frametitle{About Github...}
+    \begin{Large}
+      When it comes to hiring, I'll take a Github commit log over a
+      resume any day.
+      \begin{flushright}
+        \textemdash{}John Resig
+      \end{flushright}
+
+    \end{Large}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Stuff you may not have learned in school}
+  % \begin{overlayarea}{\textwidth}{\textheight}
+    \begin{itemize}[<+->]
     \item Language: whatever the project is written in
-    \item Build Process: make, 
-    \item Version control: git, CVS, svn, Bazaar, Darcs, Mercurial,
-      etc.
+    \item Build Process: Make, CMake autotools, Ant, Jam, Rake
+    \item Version control: git, CVS, svn, Bazaar, Darcs, Mercurial
     \item Bug Trackers: Bugzilla, Trac, Mantis, Launchpad
     \item Communication: Forums, Wikis, IRC
     \item Source Code Communities: github, Bitbucket, Launchpad,
       Gitorious, Google Code, SourceForge
     \end{itemize}
-  \end{overlayarea}
-
+  % \end{overlayarea}
 \end{frame}
 
 % http://www.kegel.com/academy/opensource.html
 % http://stackoverflow.com/questions/43649/how-to-get-involved-in-an-open-source-project
-
-\begin{frame}
-  \frametitle{How to Get Involved}
-  \begin{itemize}
-  \item Software
-    \only<2>{
-    \begin{enumerate}
-    \item Write software
-    \item Release it with an Open Source license
-      \begin{itemize}
-      \item GNU Public License (GPL): Is now, and will forever be free
-      \item BSD License: Is free, but can be used in commercial projects too
-      \end{itemize}
-    \end{enumerate}}
-  \item Hardware
-    \only<3>{
-    \begin{enumerate}
-    \item Build hardware
-    \item Make the schematics available to everyone with an open source license
-    \end{enumerate}}
-  \item Content
-    \only<4>{
-    \begin{enumerate}
-    \item Write, direct, conduct, compose, assemble, cook, generate$\ldots$
-    \item Make your work available with a \textcolor{beamer@mygreen}{Creative Commons} License of your choice
-      \begin{itemize}
-      \item Attribution
-      \item Attribution-ShareAlike
-      \item Attribution-NoDerivs
-      \item Attribution-NonCommercial
-      \item Attribution-NonCommercial-ShareAlike
-      \item Attribution-NonCommercial-NoDerivs 
-      \end{itemize}
-    \item Find stuff related to your project to make available
-% http://creativecommons.org/choose/
-    \end{enumerate}}
-  \end{itemize}
-
-  \begin{center}
-      \only<2>{\includegraphics[height=0.2\textheight]{../img/gpl}}
-      \only<4>{\includegraphics[height=0.2\textheight]{../img/creative-commons}}
-      \only<5>{
-        \begin{Large}
-        You can simply add an open license (GPL, Creative Commons, etc.) to something to make it open, just like you can add a \copyright to restrict it and make it "closed."
-        \end{Large}}
-
-  \end{center}
-
-\end{frame}
 
 \end{document}
