@@ -7,7 +7,7 @@
 \usepackage{xunicode} %Unicode extras!
 \usepackage{xltxtra} %Fixes 
 \usefonttheme{professionalfonts}
-\setmainfont{Linux Libertine O}
+\setmainfont{Linux Libertine}
 %\setmonofont[Scale=0.86]{DejaVu Sans Mono}
 \setmonofont{Liberation Mono}
 %\setromanfont{Silkscreen}
@@ -644,6 +644,41 @@
   \end{center}
 \end{frame}
 
+\begin{frame}
+  \frametitle{Github}
+  \begin{center}
+    \includegraphics[width=0.3\textwidth]{../img/octocat}
+
+    \includegraphics[width=0.3\textwidth]{../img/github-logo}
+
+    github.com
+
+    \vspace{1em}
+
+    \begin{footnotesize}
+      (Not fully open-source, but has been adopted by numerous open
+      source projects)
+
+      kernel.org $\Rightarrow$ github.com
+    \end{footnotesize}
+  \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Github}
+  \begin{center} \includegraphics[width=1\textwidth]{../img/github-screenshot} \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Github}
+  \begin{center} \includegraphics[width=0.85\textwidth]{../img/github-ruby} \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Github}
+  \begin{center} \includegraphics[width=0.85\textwidth]{../img/ruby-breakdown} \end{center}
+\end{frame}
+
 % % Should improve this slide
 % \begin{frame}
 %   \frametitle{So Why Open Source?}
@@ -664,52 +699,116 @@
 %   \end{description}
 % \end{frame}
 
+% \begin{frame}
+%   \frametitle{How to Get Involved}
+%   \begin{itemize}
+%   \item Software
+%     \only<2>{
+%     \begin{enumerate}
+%     \item Write software
+%     \item Release it with an Open Source license
+%       \begin{itemize}
+%       \item GNU Public License (GPL): Is now, and will forever be free
+%       \item BSD License: Is free, but can be used in commercial projects too
+%       \end{itemize}
+%     \end{enumerate}}
+%   \item Hardware
+%     \only<3>{
+%     \begin{enumerate}
+%     \item Build hardware
+%     \item Make the schematics available to everyone with an open source license
+%     \end{enumerate}}
+%   \item Content
+%     \only<4>{
+%     \begin{enumerate}
+%     \item Write, direct, conduct, compose, assemble, cook, generate$\ldots$
+%     \item Make your work available with a \textcolor{beamer@mygreen}{Creative Commons} License of your choice
+%       \begin{itemize}
+%       \item Attribution
+%       \item Attribution-ShareAlike
+%       \item Attribution-NoDerivs
+%       \item Attribution-NonCommercial
+%       \item Attribution-NonCommercial-ShareAlike
+%       \item Attribution-NonCommercial-NoDerivs 
+%       \end{itemize}
+%     \item Find stuff related to your project to make available
+% % http://creativecommons.org/choose/
+%     \end{enumerate}}
+%   \end{itemize}
+
+%   \begin{center}
+%       \only<2>{\includegraphics[height=0.2\textheight]{../img/gpl}}
+%       \only<4>{\includegraphics[height=0.2\textheight]{../img/creative-commons}}
+%       \only<5>{
+%         \begin{Large}
+%         You can simply add an open license (GPL, Creative Commons, etc.) to something to make it open, just like you can add a \copyright to restrict it and make it "closed."
+%         \end{Large}}
+
+%   \end{center}
+% \end{frame}
+
 \begin{frame}
-  \frametitle{How to Get Involved}
-  \begin{itemize}
-  \item Software
-    \only<2>{
-    \begin{enumerate}
-    \item Write software
-    \item Release it with an Open Source license
-      \begin{itemize}
-      \item GNU Public License (GPL): Is now, and will forever be free
-      \item BSD License: Is free, but can be used in commercial projects too
-      \end{itemize}
-    \end{enumerate}}
-  \item Hardware
-    \only<3>{
-    \begin{enumerate}
-    \item Build hardware
-    \item Make the schematics available to everyone with an open source license
-    \end{enumerate}}
-  \item Content
-    \only<4>{
-    \begin{enumerate}
-    \item Write, direct, conduct, compose, assemble, cook, generate$\ldots$
-    \item Make your work available with a \textcolor{beamer@mygreen}{Creative Commons} License of your choice
-      \begin{itemize}
-      \item Attribution
-      \item Attribution-ShareAlike
-      \item Attribution-NoDerivs
-      \item Attribution-NonCommercial
-      \item Attribution-NonCommercial-ShareAlike
-      \item Attribution-NonCommercial-NoDerivs 
-      \end{itemize}
-    \item Find stuff related to your project to make available
-% http://creativecommons.org/choose/
-    \end{enumerate}}
-  \end{itemize}
+  \frametitle{Create}
+  \begin{LARGE}
+    \begin{tabular}{r l}
+      Q: & How does something become open source? \\
+      \only<2>{A: & Attach a \textcolor{beamer@myblue}{license} and \textcolor{beamer@myblue}{share} it with others \\}
+    \end{tabular}
+  \end{LARGE}
+\end{frame}
 
-  \begin{center}
-      \only<2>{\includegraphics[height=0.2\textheight]{../img/gpl}}
-      \only<4>{\includegraphics[height=0.2\textheight]{../img/creative-commons}}
-      \only<5>{
-        \begin{Large}
-        You can simply add an open license (GPL, Creative Commons, etc.) to something to make it open, just like you can add a \copyright to restrict it and make it "closed."
-        \end{Large}}
+\begin{frame}
+  \frametitle{Software Licenses}
 
+  Lots of licenses to choose from\ldots
+
+  \begin{description}
+  \item[GPL] Is now, and will forever be free
+  \item[BSD] Is free, but new versions don't have to be free too
+  \item[Apache] Similar to BSD
+  \end{description}
+
+  Lots and lots more: IBM, Intel, MIT, Mozilla, Python, Microsoft, Sun, \ldots
+
+  \begin{center} 
+    \includegraphics[width=0.2\textwidth]{../img/gpl} 
+    \hspace{1em} 
+    \includegraphics[width=0.2\textwidth]{../img/bsd-daemon}
+    \hspace{1em} 
+    \includegraphics[width=0.2\textwidth]{../img/apache}
   \end{center}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{How to use a Software License}
+  \begin{enumerate}
+  \item Find the license you want (decide how "free" you want it to be)
+  \item Fill in the blanks with your software's title
+  \item Attach and distribute the license with your software package
+  \item ????
+    \pause
+  \item Share!
+  \end{enumerate}
+  \begin{center} 
+    \includegraphics[width=0.5\textwidth]{../img/share} 
+  \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{How to use a Software License}
+  \begin{Large}
+    GPL, Apache, BSD all have how-to guides and/or examples
+    \begin{description}
+    \item[GPL]
+      \href{http://www.gnu.org/licenses/gpl-howto.html}{http://www.gnu.org/licenses/gpl-howto.html}
+    \item[Apache]
+      \href{http://www.apache.org/dev/apply-license.html}{http://www.apache.org/dev/apply-license.html}
+    \item[BSD]
+      \href{http://www.opensource.org/licenses/BSD-3-Clause}{http://www.opensource.org/licenses/BSD-3-Clause}
+    \end{description}
+  \end{Large}
+
 \end{frame}
 
 % \begin{frame}
@@ -791,5 +890,7 @@
 % Ubuntu One
 % Dash
 % Virus scanner?
+
+% todo: conclusion
 
 \end{document}
