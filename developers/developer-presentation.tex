@@ -6,6 +6,8 @@
 \usepackage{fontspec} 
 \usepackage{xunicode} %Unicode extras!
 \usepackage{xltxtra} %Fixes 
+\usepackage{verbatim}
+\usepackage{setspace}
 \usefonttheme{professionalfonts}
 \setmainfont{Linux Libertine}
 %\setmonofont[Scale=0.86]{DejaVu Sans Mono}
@@ -644,6 +646,70 @@
   \end{center}
 \end{frame}
 
+\begin{frame}[fragile]
+  \frametitle{Quicksort}
+  \begin{block}{Ruby}
+
+
+    \begin{footnotesize}
+\begin{verbatim}
+def quicksort(items)
+   return items if items.nil? or items.length <= 1
+   less, more = items[1..-1].partition { |i| i < items[0] }
+   quicksort(less) + [items[0]] + quicksort(more)
+end
+\end{verbatim}
+    \end{footnotesize}
+  \end{block}
+
+  \vspace{2em}
+
+  5 lines
+
+% Haskell
+% \begin{verbatim}
+% qsort [] = []
+% qsort (x:xs) = qsort ys ++ x : qsort zs where (ys, zs) = partition (< x) xs
+% \end{verbatim}
+
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Quicksort}
+  \begin{block}{Java}
+\fontsize{6pt}{6pt}\selectfont
+\begin{verbatim}
+public static <E extends Comparable<? super E>> List<E> quickSort(List<E> arr) {
+    if (arr.size() <= 1)
+        return arr;
+    E pivot = arr.getFirst(); //This pivot can change to get faster results
+ 
+    List<E> less = new LinkedList<E>();
+    List<E> pivotList = new LinkedList<E>();
+    List<E> more = new LinkedList<E>();
+ 
+    for (E i: arr) {
+        if (i.compareTo(pivot) < 0)
+            less.add(i);
+        else if (i.compareTo(pivot) > 0)
+            more.add(i);
+        else
+            pivotList.add(i);
+    }
+ 
+    less = quickSort(less);
+    more = quickSort(more);
+ 
+    less.addAll(pivotList);
+    less.addAll(more);
+    return less;
+}
+\end{verbatim}
+  \end{block}
+
+  20 lines
+\end{frame}
+
 \begin{frame}
   \frametitle{Github}
   \begin{center}
@@ -892,5 +958,9 @@
 % Virus scanner?
 
 % todo: conclusion
+
+\begin{frame}[plain]
+  
+\end{frame}
 
 \end{document}
