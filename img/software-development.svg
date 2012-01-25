@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="software-development.svg"
+   inkscape:export-filename="/home/malloc47/usr/work/open-lab/presentations/img/software-development2.png"
+   inkscape:export-xdpi="99.950859"
+   inkscape:export-ydpi="99.950859">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mstart"
+       style="overflow:visible">
+      <path
+         id="path4302"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none"
+         transform="scale(0.4) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-8"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4302-6"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart-84"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4302-3"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="398.12702"
+     inkscape:cy="637.14017"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1336"
+     inkscape:window-height="751"
+     inkscape:window-x="0"
+     inkscape:window-y="15"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffccaa;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path2985"
+       sodipodi:cx="377.14285"
+       sodipodi:cy="392.36218"
+       sodipodi:rx="282.85715"
+       sodipodi:ry="282.85715"
+       d="m 660,392.36218 a 282.85715,282.85715 0 1 1 -565.714294,0 282.85715,282.85715 0 1 1 565.714294,0 z"
+       transform="matrix(1.3084253,0,0,1.3084253,-121.32039,-141.7287)" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#e9afaf;fill-opacity:1;stroke:none"
+       id="path2985-0"
+       sodipodi:cx="377.14285"
+       sodipodi:cy="392.36218"
+       sodipodi:rx="282.85715"
+       sodipodi:ry="282.85715"
+       d="m 660,392.36218 a 282.85715,282.85715 0 1 1 -565.714294,0 282.85715,282.85715 0 1 1 565.714294,0 z"
+       transform="matrix(0.98519298,0,0,0.98519298,67.012938,12.952569)" />
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Goudy Bookletter 1911;-inkscape-font-specification:Goudy Bookletter 1911"
+       x="267.14285"
+       y="72.362183"
+       id="text3791"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3793"
+         x="267.14285"
+         y="72.362183"
+         style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum">Company</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Goudy Bookletter 1911;-inkscape-font-specification:Goudy Bookletter 1911"
+       x="356.86774"
+       y="189.61833"
+       id="text3791-3"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3793-7"
+         x="356.86774"
+         y="189.61833"
+         style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum">Project</tspan></text>
+    <g
+       transform="translate(-9.4727968,8.6170805)"
+       id="g3880-7">
+      <path
+         transform="matrix(0.20994048,0,0,0.20994048,97.251026,80.703767)"
+         d="m 660,392.36218 c 0,156.21769 -126.63946,282.85715 -282.85715,282.85715 -156.21769,0 -282.857144,-126.63946 -282.857144,-282.85715 0,-156.21769 126.639454,-282.85714 282.857144,-282.85714 C 533.36054,109.50504 660,236.14449 660,392.36218 z"
+         sodipodi:ry="282.85715"
+         sodipodi:rx="282.85715"
+         sodipodi:cy="392.36218"
+         sodipodi:cx="377.14285"
+         id="path2985-0-1-9"
+         style="fill:#e9afaf;fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3791-3-0-9"
+         y="171.96988"
+         x="136.25612"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Goudy Bookletter 1911;-inkscape-font-specification:Goudy Bookletter 1911"
+         xml:space="preserve"><tspan
+           style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum"
+           y="171.96988"
+           x="136.25612"
+           id="tspan3793-7-9-3"
+           sodipodi:role="line">Project</tspan></text>
+    </g>
+    <g
+       transform="translate(-90.959395,171.11528)"
+       id="g3880-2">
+      <path
+         transform="matrix(0.20994048,0,0,0.20994048,97.251026,80.703767)"
+         d="m 660,392.36218 c 0,156.21769 -126.63946,282.85715 -282.85715,282.85715 -156.21769,0 -282.857144,-126.63946 -282.857144,-282.85715 0,-156.21769 126.639454,-282.85714 282.857144,-282.85714 C 533.36054,109.50504 660,236.14449 660,392.36218 z"
+         sodipodi:ry="282.85715"
+         sodipodi:rx="282.85715"
+         sodipodi:cy="392.36218"
+         sodipodi:cx="377.14285"
+         id="path2985-0-1-4"
+         style="fill:#ffaaaa;fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3791-3-0-3"
+         y="171.96988"
+         x="175.96373"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Goudy Bookletter 1911;-inkscape-font-specification:Goudy Bookletter 1911"
+         xml:space="preserve"><tspan
+           style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum"
+           y="171.96988"
+           x="175.96373"
+           id="tspan3793-7-9-7"
+           sodipodi:role="line">Customer</tspan></text>
+    </g>
+    <g
+       id="g3989"
+       transform="translate(-139.62874,151.75567)">
+      <path
+         transform="matrix(0.22004147,0,0,0.22004147,289.06017,203.88338)"
+         d="m 660,392.36218 c 0,156.21769 -126.63946,282.85715 -282.85715,282.85715 -156.21769,0 -282.857144,-126.63946 -282.857144,-282.85715 0,-156.21769 126.639454,-282.85714 282.857144,-282.85714 C 533.36054,109.50504 660,236.14449 660,392.36218 z"
+         sodipodi:ry="282.85715"
+         sodipodi:rx="282.85715"
+         sodipodi:cy="392.36218"
+         sodipodi:cx="377.14285"
+         id="path2985-0-2"
+         style="fill:#ffeeaa;fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3791-3-1"
+         y="278.5162"
+         x="371.4115"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Goudy Bookletter 1911;-inkscape-font-specification:Goudy Bookletter 1911"
+         xml:space="preserve"><tspan
+           style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum"
+           y="278.5162"
+           x="371.4115"
+           id="tspan3793-7-7"
+           sodipodi:role="line">Project</tspan><tspan
+           id="tspan3981"
+           style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum"
+           y="313.5162"
+           x="371.4115"
+           sodipodi:role="line">Manager</tspan></text>
+    </g>
+    <g
+       id="g3989-5"
+       transform="translate(274.2074,140.7317)">
+      <path
+         transform="matrix(0.22004147,0,0,0.22004147,289.06017,203.88338)"
+         d="m 660,392.36218 c 0,156.21769 -126.63946,282.85715 -282.85715,282.85715 -156.21769,0 -282.857144,-126.63946 -282.857144,-282.85715 0,-156.21769 126.639454,-282.85714 282.857144,-282.85714 C 533.36054,109.50504 660,236.14449 660,392.36218 z"
+         sodipodi:ry="282.85715"
+         sodipodi:rx="282.85715"
+         sodipodi:cy="392.36218"
+         sodipodi:cx="377.14285"
+         id="path2985-0-2-1"
+         style="fill:#dde9af;fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3791-3-1-7"
+         y="278.5162"
+         x="371.4115"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Goudy Bookletter 1911;-inkscape-font-specification:Goudy Bookletter 1911"
+         xml:space="preserve"><tspan
+           id="tspan3981-1"
+           style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum"
+           y="278.5162"
+           x="371.4115"
+           sodipodi:role="line">Software</tspan><tspan
+           style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum"
+           y="313.5162"
+           x="371.4115"
+           sodipodi:role="line"
+           id="tspan4046">Developer</tspan></text>
+    </g>
+    <g
+       id="g3989-5-7"
+       transform="translate(204.62072,265.92603)">
+      <path
+         transform="matrix(0.22004147,0,0,0.22004147,289.06017,203.88338)"
+         d="m 660,392.36218 c 0,156.21769 -126.63946,282.85715 -282.85715,282.85715 -156.21769,0 -282.857144,-126.63946 -282.857144,-282.85715 0,-156.21769 126.639454,-282.85714 282.857144,-282.85714 C 533.36054,109.50504 660,236.14449 660,392.36218 z"
+         sodipodi:ry="282.85715"
+         sodipodi:rx="282.85715"
+         sodipodi:cy="392.36218"
+         sodipodi:cx="377.14285"
+         id="path2985-0-2-1-0"
+         style="fill:#dde9af;fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3791-3-1-7-4"
+         y="278.5162"
+         x="371.4115"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Goudy Bookletter 1911;-inkscape-font-specification:Goudy Bookletter 1911"
+         xml:space="preserve"><tspan
+           id="tspan3981-1-0"
+           style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum"
+           y="278.5162"
+           x="371.4115"
+           sodipodi:role="line">Software</tspan><tspan
+           style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum"
+           y="313.5162"
+           x="371.4115"
+           sodipodi:role="line"
+           id="tspan4046-8">Developer</tspan></text>
+    </g>
+    <g
+       id="g3989-5-7-5"
+       transform="matrix(0.75881635,0,0,0.75881635,236.38142,81.613913)" />
+    <g
+       transform="translate(-63.57143,355)"
+       id="g3880-2-1">
+      <path
+         transform="matrix(0.20994048,0,0,0.20994048,97.251026,80.703767)"
+         d="m 660,392.36218 c 0,156.21769 -126.63946,282.85715 -282.85715,282.85715 -156.21769,0 -282.857144,-126.63946 -282.857144,-282.85715 0,-156.21769 126.639454,-282.85714 282.857144,-282.85714 C 533.36054,109.50504 660,236.14449 660,392.36218 z"
+         sodipodi:ry="282.85715"
+         sodipodi:rx="282.85715"
+         sodipodi:cy="392.36218"
+         sodipodi:cx="377.14285"
+         id="path2985-0-1-4-9"
+         style="fill:#e9afaf;fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3791-3-0-3-6"
+         y="171.96988"
+         x="136.25612"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Goudy Bookletter 1911;-inkscape-font-specification:Goudy Bookletter 1911"
+         xml:space="preserve"><tspan
+           style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum"
+           y="171.96988"
+           x="136.25612"
+           id="tspan3793-7-9-7-4"
+           sodipodi:role="line">Project</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Goudy Bookletter 1911;-inkscape-font-specification:Goudy Bookletter 1911"
+       x="442.44681"
+       y="337.17419"
+       id="text4137"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4139"
+         x="442.44681"
+         y="337.17419" /></text>
+    <g
+       id="g3095"
+       transform="translate(20,-24)">
+      <path
+         sodipodi:type="arc"
+         style="fill:#dde9af;fill-opacity:1;stroke:none"
+         id="path2985-0-2-1-0-1"
+         sodipodi:cx="377.14285"
+         sodipodi:cy="392.36218"
+         sodipodi:rx="282.85715"
+         sodipodi:ry="282.85715"
+         d="m 660,392.36218 c 0,156.21769 -126.63946,282.85715 -282.85715,282.85715 -156.21769,0 -282.857144,-126.63946 -282.857144,-282.85715 0,-156.21769 126.639454,-282.85714 282.857144,-282.85714 C 533.36054,109.50504 660,236.14449 660,392.36218 z"
+         transform="matrix(0.34208031,0,0,0.34208031,407.28673,167.06192)" />
+      <text
+         xml:space="preserve"
+         style="font-size:10.6234293px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Goudy Bookletter 1911;-inkscape-font-specification:Goudy Bookletter 1911"
+         x="535.26611"
+         y="239.50333"
+         id="text3791-3-1-7-4-6"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           x="535.26611"
+           y="239.50333"
+           style="font-size:27.31738853px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum"
+           id="tspan3981-1-0-6">Software</tspan><tspan
+           id="tspan4046-8-2"
+           sodipodi:role="line"
+           x="535.26611"
+           y="273.65005"
+           style="font-size:27.31738853px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum">Developer</tspan></text>
+      <g
+         transform="translate(40.314971,-6)"
+         id="g3076">
+        <g
+           id="g4180"
+           transform="matrix(0.59615382,0,0,0.59615382,187.63321,118.37867)">
+          <path
+             transform="matrix(0.46464643,0,0,0.46464643,197.88788,141.55021)"
+             d="m 682.86313,421.01685 c 0,55.23129 -44.77381,100.00509 -100.0051,100.00509 -55.23129,0 -100.00509,-44.7738 -100.00509,-100.00509 0,-55.23129 44.7738,-100.0051 100.00509,-100.0051 55.23129,0 100.0051,44.77381 100.0051,100.0051 z"
+             sodipodi:ry="100.0051"
+             sodipodi:rx="100.0051"
+             sodipodi:cy="421.01685"
+             sodipodi:cx="582.85803"
+             id="path4135"
+             style="fill:#ffe6d5;fill-opacity:1;stroke:none"
+             sodipodi:type="arc" />
+          <text
+             xml:space="preserve"
+             style="font-size:10.6234293px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Goudy Bookletter 1911;-inkscape-font-specification:Goudy Bookletter 1911"
+             x="468.51071"
+             y="346.57788"
+             id="text3791-3-1-7-4-6-8"
+             sodipodi:linespacing="125%"><tspan
+               id="tspan4046-8-2-8"
+               sodipodi:role="line"
+               x="468.51071"
+               y="346.57788"
+               style="font-size:27.31738853px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum">Code</tspan></text>
+        </g>
+        <g
+           id="g4180-1"
+           transform="matrix(0.59615382,0,0,0.59615382,251.48914,118.37867)">
+          <path
+             transform="matrix(0.46464643,0,0,0.46464643,197.88788,141.55021)"
+             d="m 682.86313,421.01685 c 0,55.23129 -44.77381,100.00509 -100.0051,100.00509 -55.23129,0 -100.00509,-44.7738 -100.00509,-100.00509 0,-55.23129 44.7738,-100.0051 100.00509,-100.0051 55.23129,0 100.0051,44.77381 100.0051,100.0051 z"
+             sodipodi:ry="100.0051"
+             sodipodi:rx="100.0051"
+             sodipodi:cy="421.01685"
+             sodipodi:cx="582.85803"
+             id="path4135-0"
+             style="fill:#ffeeaa;fill-opacity:1;stroke:none"
+             sodipodi:type="arc" />
+          <text
+             xml:space="preserve"
+             style="font-size:10.6234293px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Goudy Bookletter 1911;-inkscape-font-specification:Goudy Bookletter 1911"
+             x="468.51071"
+             y="346.57788"
+             id="text3791-3-1-7-4-6-8-2"
+             sodipodi:linespacing="125%"><tspan
+               id="tspan4046-8-2-8-2"
+               sodipodi:role="line"
+               x="468.51071"
+               y="346.57788"
+               style="font-size:27.31738853px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum">Tests</tspan></text>
+        </g>
+        <g
+           id="g4180-9"
+           transform="matrix(0.59615382,0,0,0.59615382,219.56117,167.17673)">
+          <path
+             transform="matrix(0.46464643,0,0,0.46464643,197.88788,141.55021)"
+             d="m 682.86313,421.01685 c 0,55.23129 -44.77381,100.00509 -100.0051,100.00509 -55.23129,0 -100.00509,-44.7738 -100.00509,-100.00509 0,-55.23129 44.7738,-100.0051 100.00509,-100.0051 55.23129,0 100.0051,44.77381 100.0051,100.0051 z"
+             sodipodi:ry="100.0051"
+             sodipodi:rx="100.0051"
+             sodipodi:cy="421.01685"
+             sodipodi:cx="582.85803"
+             id="path4135-7"
+             style="fill:#c8c4b7;fill-opacity:1;stroke:none"
+             sodipodi:type="arc" />
+          <text
+             xml:space="preserve"
+             style="font-size:10.6234293px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Goudy Bookletter 1911;-inkscape-font-specification:Goudy Bookletter 1911"
+             x="468.51071"
+             y="328.95096"
+             id="text3791-3-1-7-4-6-8-5"
+             sodipodi:linespacing="125%"><tspan
+               sodipodi:role="line"
+               x="468.51071"
+               y="328.95096"
+               style="font-size:27.31738853px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum"
+               id="tspan4152">Specifi-</tspan><tspan
+               sodipodi:role="line"
+               x="468.51071"
+               y="363.09769"
+               style="font-size:27.31738853px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum"
+               id="tspan4156">cations</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="g3989-5-7-4"
+       transform="translate(-65.971019,269.1884)">
+      <path
+         transform="matrix(0.22004147,0,0,0.22004147,289.06017,203.88338)"
+         d="m 660,392.36218 c 0,156.21769 -126.63946,282.85715 -282.85715,282.85715 -156.21769,0 -282.857144,-126.63946 -282.857144,-282.85715 0,-156.21769 126.639454,-282.85714 282.857144,-282.85714 C 533.36054,109.50504 660,236.14449 660,392.36218 z"
+         sodipodi:ry="282.85715"
+         sodipodi:rx="282.85715"
+         sodipodi:cy="392.36218"
+         sodipodi:cx="377.14285"
+         id="path2985-0-2-1-0-6"
+         style="fill:#eeffaa;fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3791-3-1-7-4-3"
+         y="299.14706"
+         x="371.4115"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Goudy Bookletter 1911;-inkscape-font-specification:Goudy Bookletter 1911"
+         xml:space="preserve"><tspan
+           style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum"
+           y="299.14706"
+           x="371.4115"
+           sodipodi:role="line"
+           id="tspan4046-8-9">Tester</tspan></text>
+    </g>
+    <g
+       id="g3989-5-7-4-4"
+       transform="translate(68.379273,320.7468)">
+      <path
+         transform="matrix(0.22004147,0,0,0.22004147,289.06017,203.88338)"
+         d="m 660,392.36218 c 0,156.21769 -126.63946,282.85715 -282.85715,282.85715 -156.21769,0 -282.857144,-126.63946 -282.857144,-282.85715 0,-156.21769 126.639454,-282.85714 282.857144,-282.85714 C 533.36054,109.50504 660,236.14449 660,392.36218 z"
+         sodipodi:ry="282.85715"
+         sodipodi:rx="282.85715"
+         sodipodi:cy="392.36218"
+         sodipodi:cx="377.14285"
+         id="path2985-0-2-1-0-6-9"
+         style="fill:#f4d7e3;fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3791-3-1-7-4-3-1"
+         y="282.35117"
+         x="371.4115"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Goudy Bookletter 1911;-inkscape-font-specification:Goudy Bookletter 1911"
+         xml:space="preserve"><tspan
+           style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum"
+           y="282.35117"
+           x="371.4115"
+           sodipodi:role="line"
+           id="tspan4046-8-9-7">Technical</tspan><tspan
+           style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum"
+           y="317.35117"
+           x="371.4115"
+           sodipodi:role="line"
+           id="tspan4318">Writer</tspan></text>
+    </g>
+    <g
+       id="g3095-5"
+       transform="translate(-227.19319,-16.635051)">
+      <path
+         sodipodi:type="arc"
+         style="fill:#ffeeaa;fill-opacity:1;stroke:none"
+         id="path2985-0-2-1-0-1-9"
+         sodipodi:cx="377.14285"
+         sodipodi:cy="392.36218"
+         sodipodi:rx="282.85715"
+         sodipodi:ry="282.85715"
+         d="m 660,392.36218 c 0,156.21769 -126.63946,282.85715 -282.85715,282.85715 -156.21769,0 -282.857144,-126.63946 -282.857144,-282.85715 0,-156.21769 126.639454,-282.85714 282.857144,-282.85714 C 533.36054,109.50504 660,236.14449 660,392.36218 z"
+         transform="matrix(0.34208031,0,0,0.34208031,407.28673,167.06192)" />
+      <text
+         xml:space="preserve"
+         style="font-size:10.6234293px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Goudy Bookletter 1911;-inkscape-font-specification:Goudy Bookletter 1911"
+         x="535.26611"
+         y="239.50333"
+         id="text3791-3-1-7-4-6-2"
+         sodipodi:linespacing="125%"><tspan
+           id="tspan4046-8-2-89"
+           sodipodi:role="line"
+           x="535.26611"
+           y="239.50333"
+           style="font-size:27.31738853px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum">Project</tspan><tspan
+           sodipodi:role="line"
+           x="535.26611"
+           y="273.65005"
+           style="font-size:27.31738853px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum"
+           id="tspan3219">Manager</tspan></text>
+      <g
+         id="g4116">
+        <g
+           id="g4180-9-7"
+           transform="matrix(0.59615382,0,0,0.59615382,288.40457,114.41575)">
+          <path
+             transform="matrix(0.46464643,0,0,0.46464643,197.88788,141.55021)"
+             d="m 682.86313,421.01685 c 0,55.23129 -44.77381,100.00509 -100.0051,100.00509 -55.23129,0 -100.00509,-44.7738 -100.00509,-100.00509 0,-55.23129 44.7738,-100.0051 100.00509,-100.0051 55.23129,0 100.0051,44.77381 100.0051,100.0051 z"
+             sodipodi:ry="100.0051"
+             sodipodi:rx="100.0051"
+             sodipodi:cy="421.01685"
+             sodipodi:cx="582.85803"
+             id="path4135-7-8"
+             style="fill:#c8c4b7;fill-opacity:1;stroke:none"
+             sodipodi:type="arc" />
+          <text
+             xml:space="preserve"
+             style="font-size:10.6234293px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Goudy Bookletter 1911;-inkscape-font-specification:Goudy Bookletter 1911"
+             x="468.51071"
+             y="328.95096"
+             id="text3791-3-1-7-4-6-8-5-4"
+             sodipodi:linespacing="125%"><tspan
+               sodipodi:role="line"
+               x="471.92538"
+               y="328.95096"
+               style="font-size:27.31738853px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum"
+               id="tspan4239-0">Dev. </tspan><tspan
+               sodipodi:role="line"
+               x="468.51071"
+               y="363.09769"
+               style="font-size:27.31738853px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum"
+               id="tspan3991">Model</tspan></text>
+        </g>
+        <g
+           id="g4180-9-7-3"
+           transform="matrix(0.59615382,0,0,0.59615382,222.53097,114.41575)">
+          <path
+             transform="matrix(0.46464643,0,0,0.46464643,197.88788,141.55021)"
+             d="m 682.86313,421.01685 c 0,55.23129 -44.77381,100.00509 -100.0051,100.00509 -55.23129,0 -100.00509,-44.7738 -100.00509,-100.00509 0,-55.23129 44.7738,-100.0051 100.00509,-100.0051 55.23129,0 100.0051,44.77381 100.0051,100.0051 z"
+             sodipodi:ry="100.0051"
+             sodipodi:rx="100.0051"
+             sodipodi:cy="421.01685"
+             sodipodi:cx="582.85803"
+             id="path4135-7-8-6"
+             style="fill:#ffaaee;fill-opacity:1;stroke:none"
+             sodipodi:type="arc" />
+          <text
+             xml:space="preserve"
+             style="font-size:10.6234293px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Goudy Bookletter 1911;-inkscape-font-specification:Goudy Bookletter 1911"
+             x="468.51071"
+             y="328.95096"
+             id="text3791-3-1-7-4-6-8-5-4-1"
+             sodipodi:linespacing="125%"><tspan
+               sodipodi:role="line"
+               x="468.51071"
+               y="328.95096"
+               style="font-size:27.31738853px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum"
+               id="tspan3991-6">Require-</tspan><tspan
+               sodipodi:role="line"
+               x="468.51071"
+               y="363.09769"
+               style="font-size:27.31738853px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum"
+               id="tspan4027">mentsl</tspan></text>
+        </g>
+        <g
+           transform="matrix(0.59615382,0,0,0.59615382,255.46777,161.89293)"
+           id="g4180-5">
+          <path
+             sodipodi:type="arc"
+             style="fill:#ddafe9;fill-opacity:1;stroke:none"
+             id="path4135-5"
+             sodipodi:cx="582.85803"
+             sodipodi:cy="421.01685"
+             sodipodi:rx="100.0051"
+             sodipodi:ry="100.0051"
+             d="m 682.86313,421.01685 c 0,55.23129 -44.77381,100.00509 -100.0051,100.00509 -55.23129,0 -100.00509,-44.7738 -100.00509,-100.00509 0,-55.23129 44.7738,-100.0051 100.00509,-100.0051 55.23129,0 100.0051,44.77381 100.0051,100.0051 z"
+             transform="matrix(0.46464643,0,0,0.46464643,197.88788,141.55021)" />
+          <text
+             sodipodi:linespacing="125%"
+             id="text3791-3-1-7-4-6-8-4"
+             y="346.57788"
+             x="468.51071"
+             style="font-size:10.6234293px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Goudy Bookletter 1911;-inkscape-font-specification:Goudy Bookletter 1911"
+             xml:space="preserve"><tspan
+               style="font-size:27.31738853px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum"
+               y="346.57788"
+               x="468.51071"
+               sodipodi:role="line"
+               id="tspan4046-8-2-8-7">Tools</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g
+       transform="translate(-106.72806,632.70696)"
+       id="g4286">
+      <path
+         transform="matrix(0.20994048,0,0,0.20994048,97.251026,80.703767)"
+         d="m 660,392.36218 c 0,156.21769 -126.63946,282.85715 -282.85715,282.85715 -156.21769,0 -282.857144,-126.63946 -282.857144,-282.85715 0,-156.21769 126.639454,-282.85714 282.857144,-282.85714 C 533.36054,109.50504 660,236.14449 660,392.36218 z"
+         sodipodi:ry="282.85715"
+         sodipodi:rx="282.85715"
+         sodipodi:cy="392.36218"
+         sodipodi:cx="377.14285"
+         id="path2985-0-1-4-9-4"
+         style="fill:#ffaaaa;fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3791-3-0-3-6-7"
+         y="171.96988"
+         x="175.96373"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Goudy Bookletter 1911;-inkscape-font-specification:Goudy Bookletter 1911"
+         xml:space="preserve"><tspan
+           style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum"
+           y="171.96988"
+           x="175.96373"
+           id="tspan3793-7-9-7-4-4"
+           sodipodi:role="line">Customer</tspan></text>
+    </g>
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path4291"
+       d="M 105.81348,580.62095 71.72084,736.18443"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow1Mstart)" />
+    <g
+       id="g4764"
+       transform="translate(21.27195,632.70696)">
+      <path
+         sodipodi:type="arc"
+         style="fill:#ffaaaa;fill-opacity:1;stroke:none"
+         id="path4766"
+         sodipodi:cx="377.14285"
+         sodipodi:cy="392.36218"
+         sodipodi:rx="282.85715"
+         sodipodi:ry="282.85715"
+         d="m 660,392.36218 c 0,156.21769 -126.63946,282.85715 -282.85715,282.85715 -156.21769,0 -282.857144,-126.63946 -282.857144,-282.85715 0,-156.21769 126.639454,-282.85714 282.857144,-282.85714 C 533.36054,109.50504 660,236.14449 660,392.36218 z"
+         transform="matrix(0.20994048,0,0,0.20994048,97.251026,80.703767)" />
+      <text
+         xml:space="preserve"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Goudy Bookletter 1911;-inkscape-font-specification:Goudy Bookletter 1911"
+         x="175.96373"
+         y="171.96988"
+         id="text4768"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4770"
+           x="175.96373"
+           y="171.96988"
+           style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum">Customer</tspan></text>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow1Mstart)"
+       d="m 271.14815,626.85863 -73.42731,109.3258"
+       id="path4796"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path4291-1"
+       d="m 137.00861,227.26233 -28.20504,52.4001"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow1Mstart)" />
+  </g>
+</svg>
