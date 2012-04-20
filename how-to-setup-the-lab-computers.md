@@ -1,10 +1,10 @@
 Install
-=======
+-------
 
 After Install
-=============
+-------------
 
-##Software Center##
+####Software Center####
 * Uncheck View > New Applications in Launcher
 * Edit > Software Sources
   1. On the first tab, uncheck *Source Code*
@@ -22,7 +22,7 @@ After Install
   1. In **Brightness and Lock**, turn off the *Lock* (so that our users don't have to
      enter the password as often).
 
-###Firefox###
+####Firefox####
 Click Edit > Preferences
 * On the **General** tab:
   - Delete the *about:startpage* line. When this line is blank, Mozilla's nicer default homepage is used.
@@ -32,50 +32,52 @@ Click Edit > Preferences
   - Clear the history too.
 * Switch back to the **General** tab.
 
-#####/etc/fstab#####
+####/etc/fstab####
 On the final line, replace `UUID=` with `/dev/sda6`
 
 (This is the swap directory and it happens to have different UUIDs on the
 different computers we use. We could clone the swap directory too but why bother?)
 
-######Install useful stuff######
+####Install useful stuff####
     sudo apt-get install arduino blender cheese gimp inkscape pitivi icedtea-plugin \
     libreoffice-presenter-console ubuntu-restricted-extras virtualbox git mplayer tree
 
-Enable DVD support
-------------------
+####Enable DVD support####
     sudo /usr/share/doc/libdvdread4/install-css.sh
 
-Cleanup
--------
+####Cleanup####
 When you've finished, clean up the cached package files to save space
 
     sudo rm -rf /var/cache/apt
 
-Prepare for the Command Line Workshop
--------------------------------------
+####Prepare for the Command Line Workshop####
     git clone git://github.com/open-it-lab/cli-workshop.git cli-workshop
 
 
-Other interesting stuff (not currently installed)
--------------------------------------------------
+####Other interesting stuff (not currently installed)####
 * ubuntu-dev-tools (pulls in bzr, g++, patch, quilt, and a bunch of Ubuntu/Debian specific
 scripts for building packaging)
 * scratch (http://bugs.debian.org/471927)
 
-Add PPAs (not currently done)
------------------------------
-    sudo add-apt-repository ppa:
+####Add PPAs (not currently done)####
+    sudo add-apt-repository ppa:gnome3-team/gnome3
 
 This might be cool if there's a LibreOffice stable PPA we want, for instance.
 
 Clonezilla
-==========
+----------
+* [Download](http://clonezilla.org/downloads.php)
+* Run `bash utils/linux/makeboot.sh /dev/sdd1`
+* On the boot screen, choose Other>Boot from RAM.
+* After the first blue wizard screen appears, remove the USB stick.
+* Re-insert the USB disk when prompted.
+* Save and load the image to the root directory of the USB stick is fine (it will use a subdirectory anyway)
+* 6 or 7GB used partition will still fit on a 4GB USB stick.
+
 
 Misc
-====
+----
 
-Apt Errors?
------------
+####Apt Errors?####
     sudo rm -r /var/lib/apt/lists
     sudo apt-get update
