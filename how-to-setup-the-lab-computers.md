@@ -11,29 +11,29 @@ Software Center
   1. On the first tab, uncheck `Source Code`
   1. We can change the Ubuntu mirror we want to pull packages from, but this
      isn't currently done.
-  1. On the `Other Software` tab, enable the Partner repository and disable the
+  1. On the **Other Software** tab, enable the Partner repository and disable the
      source code lines.
-  1. On the `Updates` tab:
+  1. On the **Updates** tab:
      When there are security updates, download and install automatically.
      When there are other updates, display every two weeks. (This doesn't matter
      much but should reduce the Update Manager popup from appearing slightly.)
 
 System Settings
 ---------------
-  1. In `User Acccounts`, unlock and turn on `Automatic Login`
-  1. In `Brightness and Lock`, turn off the `Lock` (so that our users don't have to
-    enter the password as often)
+  1. In **User Acccounts**, unlock and turn on **Automatic Login**.
+  1. In **Brightness and Lock**, turn off the **Lock** (so that our users don't have to
+    enter the password as often).
 
 Firefox
 -------
 Click Edit > Preferences
-* On the `General` tab:
+* On the **General** tab:
   - Delete the `about:startpage` line, when this line is blank, Mozilla's nicer default homepage is used.
-* On the `Privacy` tab
+* On the **Privacy** tab
   - Tell websites I don't want to be tracked.
   - Firefox will never remember history
   - Clear the history too.
-* Switch back to the `General` tab.
+* Switch back to the **General** tab.
 
 /etc/fstab
 ----------
