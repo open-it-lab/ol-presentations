@@ -1,14 +1,13 @@
-Clonezilla
-==========
-
+Install
+=======
 
 After Install
 =============
 
 Software Center
 ---------------
-* Uncheck View>New Applications in Launcher
-* Edit>Software Sources
+* Uncheck View > New Applications in Launcher
+* Edit > Software Sources
   1. On the first tab, uncheck Source Code
   1. We can change the Ubuntu mirror we want to pull packages from, but this
      isn't currently done.
@@ -27,10 +26,13 @@ System Settings
 
 Firefox
 -------
-Click Edit>Preferences
+Click Edit > Preferences
 * On the General tab:
-  - Delete the about:startpage line, when this line is blank, Mozilla's nicer
-    default homepage is used.
+  - Delete the
+
+    about:startpage
+
+    line, when this line is blank, Mozilla's nicer default homepage is used.
 * On the Privacy tab
   - Tell websites I don't want to be tracked.
   - Firefox will never remember history
@@ -40,7 +42,9 @@ Click Edit>Preferences
 /etc/fstab
 ----------
 Replace the final UUID= with
+
     /dev/sda6
+
 (This is the swap directory and it happens to have different UUIDs on the
 different computers we use. We could clone the swap directory too but why bother?)
 
@@ -56,11 +60,12 @@ Enable DVD support
 Cleanup
 -------
 * When you've finished, clean up the cached package files to save space
+
     sudo rm -rf /var/cache/apt
 
 Prepare for the Command Line Workshop
 -------------------------------------
-git clone git://github.com/open-it-lab/cli-workshop.git cli-workshop
+    git clone git://github.com/open-it-lab/cli-workshop.git cli-workshop
 
 
 Other interesting stuff (not currently installed)
@@ -73,3 +78,8 @@ Add PPAs (not currently done)
     sudo add-apt-repository ppa:
 
 This might be cool if there's a LibreOffice stable PPA we want, for instance.
+
+Clonezilla
+==========
+
+
