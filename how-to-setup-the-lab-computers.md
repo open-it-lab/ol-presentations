@@ -4,46 +4,41 @@ Install
 After Install
 =============
 
-Software Center
----------------
+##Software Center##
 * Uncheck View > New Applications in Launcher
 * Edit > Software Sources
-  1. On the first tab, uncheck `Source Code`
+  1. On the first tab, uncheck *Source Code*
   1. We can change the Ubuntu mirror we want to pull packages from, but this
      isn't currently done.
-  1. On the **Other Software** tab, enable the Partner repository and disable the
+  1. On the **Other Software** tab, enable the *Partner* repository and disable the
      source code lines.
   1. On the **Updates** tab:
-     When there are security updates, download and install automatically.
-     When there are other updates, display every two weeks. (This doesn't matter
-     much but should reduce the Update Manager popup from appearing slightly.)
+     * When there are security updates, download and install automatically.
+     * When there are other updates, display every two weeks. (This doesn't matter
+       much but should reduce the Update Manager popup from appearing slightly.)
 
-System Settings
----------------
-  1. In **User Acccounts**, unlock and turn on **Automatic Login**.
-  1. In **Brightness and Lock**, turn off the **Lock** (so that our users don't have to
-    enter the password as often).
+####System Settings####
+  1. In **User Acccounts**, unlock and turn on *Automatic Login*.
+  1. In **Brightness and Lock**, turn off the *Lock* (so that our users don't have to
+     enter the password as often).
 
-Firefox
--------
+###Firefox###
 Click Edit > Preferences
 * On the **General** tab:
-  - Delete the `about:startpage` line, when this line is blank, Mozilla's nicer default homepage is used.
+  - Delete the *about:startpage* line. When this line is blank, Mozilla's nicer default homepage is used.
 * On the **Privacy** tab
   - Tell websites I don't want to be tracked.
   - Firefox will never remember history
   - Clear the history too.
 * Switch back to the **General** tab.
 
-/etc/fstab
-----------
+#####/etc/fstab#####
 On the final line, replace `UUID=` with `/dev/sda6`
 
 (This is the swap directory and it happens to have different UUIDs on the
 different computers we use. We could clone the swap directory too but why bother?)
 
-Install useful stuff
---------------------
+######Install useful stuff######
     sudo apt-get install arduino blender cheese gimp inkscape pitivi icedtea-plugin \
     libreoffice-presenter-console ubuntu-restricted-extras virtualbox git mplayer tree
 
