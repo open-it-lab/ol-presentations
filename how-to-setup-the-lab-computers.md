@@ -48,7 +48,15 @@ different computers we use. We could clone the swap directory too but why bother
 ####Cleanup####
 When you've finished, clean up the cached package files to save space
 
-    sudo rm -rf /var/cache/apt
+    sudo rm -r /var/cache/apt
+
+####Ubuntu images####
+Add the [latest](http://www.ubuntu.com/download/ubuntu/download) Ubuntu 32-bit and 64-bit Ubuntu images to the *Downloads* folder.
+Anyone can then Startup Disk Creator to make an Ubuntu installer out of their USB
+stick (Existing files are preserved) or they can burn a CD.
+
+For VirtualBox on the lab computers, you need to use the 32-bit image since
+we're running a 32-bit host OS.
 
 ####Prepare for the Command Line Workshop####
     git clone git://github.com/open-it-lab/cli-workshop.git cli-workshop
@@ -66,14 +74,13 @@ This might be cool if there's a LibreOffice stable PPA we want, for instance.
 
 Clonezilla
 ----------
-* [Download](http://clonezilla.org/downloads.php)
+* [Download](http://clonezilla.org/downloads.php) and extract the files to the USB stick.
 * Run `bash utils/linux/makeboot.sh /dev/sdd1`
 * On the boot screen, choose Other>Boot from RAM.
 * After the first blue wizard screen appears, remove the USB stick.
 * Re-insert the USB disk when prompted.
 * Save and load the image to the root directory of the USB stick is fine (it will use a subdirectory anyway)
 * 6 or 7GB used partition will still fit on a 4GB USB stick.
-
 
 Misc
 ----
