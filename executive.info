@@ -1,0 +1,46 @@
+# -*- coding: iso-8859-1 -*-
+
+AvailableTransitions = [Crossfade]
+
+PageProps = {
+  1: {
+       'reset': 1,
+       'title': 'Title Page'
+     },
+  9: {
+       'skip': True
+     },
+ 17: {
+       'skip': True
+     },
+ 18: {
+       'skip': True
+     },
+ 24: {
+       'skip': True
+     },
+ 29: {
+       'skip': True
+     },
+ 42: {
+       'skip': True
+     },
+ 43: {
+       'skip': True
+     },
+ 44: {
+       'skip': True
+     },
+ 45: {
+       'skip': True
+     },
+ 46: {
+       'skip': True
+     },
+ 47: {
+       'skip': True
+     },
+ 48: {
+       'skip': True
+     }
+}
