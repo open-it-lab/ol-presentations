@@ -19,6 +19,12 @@ PageProps = {
  11: {
        'skip': True
      },
+ 14: {
+       'skip': True
+     },
+ 15: {
+       'skip': True
+     },
  16: {
        'skip': True
      },
@@ -34,10 +40,16 @@ PageProps = {
  24: {
        'skip': True
      },
+ 25: {
+       'skip': True
+     },
  26: {
        'skip': True
      },
  27: {
+       'skip': True
+     },
+ 28: {
        'skip': True
      },
  29: {
