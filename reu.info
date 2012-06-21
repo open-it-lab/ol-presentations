@@ -1,0 +1,181 @@
+# -*- coding: iso-8859-1 -*-
+
+AvailableTransitions = [Crossfade]
+
+PageProps = {
+  1: {
+       'reset': 1,
+       'title': 'Title Page'
+     },
+  3: {
+       'skip': True
+     },
+  4: {
+       'skip': True
+     },
+  9: {
+       'skip': True
+     },
+ 10: {
+       'skip': True
+     },
+ 11: {
+       'skip': True
+     },
+ 14: {
+       'skip': True
+     },
+ 15: {
+       'skip': True
+     },
+ 16: {
+       'skip': True
+     },
+ 17: {
+       'skip': True
+     },
+ 21: {
+       'skip': True
+     },
+ 22: {
+       'skip': True
+     },
+ 24: {
+       'skip': True
+     },
+ 25: {
+       'skip': True
+     },
+ 26: {
+       'skip': True
+     },
+ 27: {
+       'skip': True
+     },
+ 28: {
+       'skip': True
+     },
+ 29: {
+       'skip': True
+     },
+ 30: {
+       'skip': True
+     },
+ 31: {
+       'skip': True
+     },
+ 32: {
+       'skip': True
+     },
+ 33: {
+       'skip': True
+     },
+ 34: {
+       'skip': True
+     },
+ 35: {
+       'skip': True
+     },
+ 36: {
+       'skip': True
+     },
+ 37: {
+       'skip': True
+     },
+ 38: {
+       'skip': True
+     },
+ 39: {
+       'skip': True
+     },
+ 40: {
+       'skip': True
+     },
+ 41: {
+       'skip': True
+     },
+ 42: {
+       'skip': True
+     },
+ 43: {
+       'skip': True
+     },
+ 44: {
+       'skip': True
+     },
+ 45: {
+       'skip': True
+     },
+ 46: {
+       'skip': True
+     },
+ 47: {
+       'skip': True
+     },
+ 48: {
+       'skip': True
+     },
+ 49: {
+       'skip': True
+     },
+ 50: {
+       'skip': True
+     },
+ 51: {
+       'skip': True
+     },
+ 52: {
+       'skip': True
+     },
+ 53: {
+       'skip': True
+     },
+ 54: {
+       'skip': True
+     },
+ 55: {
+       'skip': True
+     },
+ 56: {
+       'skip': True
+     },
+ 57: {
+       'skip': True
+     },
+ 58: {
+       'skip': True
+     },
+ 59: {
+       'skip': True
+     },
+ 71: {
+       'skip': True
+     },
+ 73: {
+       'skip': True
+     },
+ 74: {
+       'skip': True
+     },
+ 75: {
+       'skip': True
+     },
+ 76: {
+       'skip': True
+     },
+ 77: {
+       'skip': True
+     },
+ 78: {
+       'skip': True
+     },
+ 91: {
+       'skip': True
+     },
+105: {
+       'skip': True
+     },
+108: {
+       'skip': True
+     }
+}
