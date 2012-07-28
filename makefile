@@ -1,5 +1,5 @@
 SOURCE = $(wildcard *.odp)
-OUTPUT = $(SOURCES:.odp=.pdf)
+OUTPUT = $(SOURCE:.odp=.pdf)
 
 all: $(OUTPUT)
 
