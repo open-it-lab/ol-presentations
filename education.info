@@ -7,22 +7,7 @@ PageProps = {
        'reset': 1,
        'title': 'Title Page'
      },
-  3: {
-       'skip': True
-     },
-  5: {
-       'skip': True
-     },
-  9: {
-       'skip': True
-     },
- 10: {
-       'skip': True
-     },
  11: {
-       'skip': True
-     },
- 14: {
        'skip': True
      },
  15: {
@@ -32,6 +17,12 @@ PageProps = {
        'skip': True
      },
  17: {
+       'skip': True
+     },
+ 18: {
+       'skip': True
+     },
+ 19: {
        'skip': True
      },
  21: {
@@ -64,15 +55,6 @@ PageProps = {
  31: {
        'skip': True
      },
- 32: {
-       'skip': True
-     },
- 33: {
-       'skip': True
-     },
- 34: {
-       'skip': True
-     },
  35: {
        'skip': True
      },
@@ -94,10 +76,13 @@ PageProps = {
  41: {
        'skip': True
      },
- 45: {
+ 42: {
        'skip': True
      },
- 46: {
+ 43: {
+       'skip': True
+     },
+ 47: {
        'skip': True
      },
  48: {
@@ -142,7 +127,13 @@ PageProps = {
  61: {
        'skip': True
      },
+ 62: {
+       'skip': True
+     },
  63: {
+       'skip': True
+     },
+ 64: {
        'skip': True
      },
  65: {
@@ -157,10 +148,16 @@ PageProps = {
  68: {
        'skip': True
      },
+ 69: {
+       'skip': True
+     },
  70: {
        'skip': True
      },
  71: {
+       'skip': True
+     },
+ 72: {
        'skip': True
      },
  73: {
